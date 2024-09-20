@@ -3,7 +3,7 @@ import Image from "next/image"
 export default function TrofeoRAC() {
   return (
     <div className="w-full mt-28 flex flex-col items-center justify-center">
-      <h2 className="hidden">
+      <h2 className="text-white">
         Tu aliado para mejorar el rendimiento acadèmico
       </h2>
       <div className="relative w-[500px] aspect-video">
