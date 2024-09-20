@@ -3,9 +3,9 @@ import VidSectionRAC from "../VidSectionRAC/page"
 
 export default function HeaderRAC() {
   return (
-    <section className="w-full h-[200vh] bg-[url('/img/fondoHeaderRAC.png')] bg-center bg-no-repeat bg-cover flex flex-col">
-      <div className="w-full flex">
-        <div className="w-3/12 h-[80vh] flex flex-col justify-end ml-52">
+    <section className="w-full h-[1400px] 3xl:h-[1800px] bg-[url('/img/fondoHeaderRAC.png')] bg-center bg-no-repeat bg-cover flex flex-col">
+      <div className="w-full flex h-[700px]">
+        <div className="w-3/12 flex flex-col justify-center mt-10 ml-52">
           <h1 className="text-5xl text-bluebm font-[InterBold]">
             Olvídate del <br /> miedo a las <br />
             <span className="text-lightBluebm text-6xl">Matemáticas</span>
@@ -27,7 +27,7 @@ export default function HeaderRAC() {
             </b>
           </p>
         </div>
-        <div className="w-9/12 h-[105vh] flex items-end pl-20">
+        <div className="w-9/12 flex items-center mt-10 pl-20">
           <div className="relative w-[700px] aspect-square">
             <Image
               src="/img/imgHeaderRAC.png"

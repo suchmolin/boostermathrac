@@ -11,3 +11,7 @@
     font-family: 'InterBold';
     src: url('/font/InterBold.ttf');
 }
+@font-face {
+    font-family: 'InterBlack';
+    src: url('/font/InterBlack.ttf');
+}
