@@ -26,7 +26,7 @@ export default function ComoFuncionaRAC() {
             nuestro Acelerador Matemático
           </h2>
           <div className="relative flex gap-10 w-full justify-center">
-            <div className="absolute top-[40px] w-[300px] h-[4px] bg-white"></div>
+            <div className="absolute top-[50px] w-[300px] h-[4px] bg-white"></div>
             <div className="flex flex-col items-center justify-center">
               <p className="text-bluebm font-bold text-sm text-center mb-2">
                 Iniciación
@@ -90,7 +90,7 @@ export default function ComoFuncionaRAC() {
           />
         </div>
       </div>
-      <div className="w-full flex flex-col items-center justify-center bg-LightBlueSecondarybm bg-[url('/img/fondoComoFuncionaRAC2.png')] bg-cover bg-bottom bg-no-repeat pb-32">
+      <div className="w-full flex flex-col items-center justify-center bg-LightBlueSecondarybm bg-[url('/img/fondoComoFuncionaRAC2.png')] bg-cover bg-bottom bg-no-repeat">
         <p className="w-5/12 font-bold py-10">
           Ponemos a tu hijo un paso adelante de su nivel académico, a través de
           una forma de enseñanza novedosa, pensada para que entienda los
@@ -99,7 +99,7 @@ export default function ComoFuncionaRAC() {
         </p>
         <a
           href="#"
-          className="text-white py-2 px-9 rounded-md bg-purplebm w-fit font-bold text-xl tracking-wider"
+          className="text-white py-2 px-9 rounded-md bg-purplebm w-fit font-bold text-xl tracking-wider mb-32"
         >
           Obtener cupo
         </a>
