@@ -2,9 +2,9 @@ import Image from "next/image"
 
 export default function NavbarRAC() {
   return (
-    <nav className="absolute w-full h-[100px] flex justify-end ">
-      <div className="absolute top-0 left-40">
-        <div className="relative w-[300px] aspect-video">
+    <nav className="hidden absolute w-full h-[100px] 3xl:h-[150px] sm:flex justify-end ">
+      <div className="absolute top-0 left-10 lg:left-40 3xl:left-60">
+        <div className="relative w-[200px] lg:w-[300px] 3xl:w-[400px] aspect-video">
           <Image
             src="/img/logo.png"
             layout="fill"
@@ -13,7 +13,7 @@ export default function NavbarRAC() {
           />
         </div>
       </div>
-      <ul className="flex gap-16 justify-center items-center text-xl font-bold text-bluebm pr-80">
+      <ul className="flex gap-5 lg:gap-12 3xl:gap-20 justify-center items-center text-base lg:text-xl 3xl:text-4xl font-bold text-bluebm pr-10 xl:pr-64">
         <li>
           <a href="/">Programas</a>
         </li>

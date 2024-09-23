@@ -77,7 +77,7 @@ export default function ProgramasyEdades() {
         alt="linea"
       />
       <div className="w-10/12 flex flex-col justify-center items-center z-10">
-        <h2 className="font-[InterBlack] text-4xl text-bluebm mb-10">
+        <h2 className="font-[InterBlack] text-4xl 3xl:text-6xl text-bluebm mb-10">
           Programas y edades
         </h2>
         {data.map((item, index) => {
