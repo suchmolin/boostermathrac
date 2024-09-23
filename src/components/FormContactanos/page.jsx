@@ -4,8 +4,8 @@ export default function FormContactanos() {
   return (
     <form id="contactanos" className="w-full flex flex-col gap-4">
       <div className="w-full">
-        <div className="flex items-center gap-4 mb-4">
-          <div className="w-6/12 flex flex-col">
+        <div className="flex flex-col sm:flex-row items-center gap-4 mb-4">
+          <div className="w-full sm:w-6/12 flex flex-col">
             <label
               for="name"
               className="block mb-2 font-medium text-gray-900 text-lg ml-5"
@@ -20,7 +20,7 @@ export default function FormContactanos() {
               required
             />
           </div>
-          <div className="w-6/12 flex flex-col">
+          <div className="w-full sm:w-6/12 flex flex-col">
             <label
               for="name"
               className="block mb-2 font-medium text-gray-900 text-lg ml-5"
@@ -36,8 +36,8 @@ export default function FormContactanos() {
             />
           </div>
         </div>
-        <div className="flex items-center gap-4 mb-4">
-          <div className="w-6/12 flex flex-col">
+        <div className="flex flex-col sm:flex-row  items-center gap-4 mb-4">
+          <div className="w-full sm:w-6/12 flex flex-col">
             <label
               for="name"
               className="block mb-2 font-medium text-gray-900 text-lg ml-5"
@@ -52,7 +52,7 @@ export default function FormContactanos() {
               required
             />
           </div>
-          <div className="w-6/12 flex flex-col mb-4">
+          <div className="w-full sm:w-6/12 flex flex-col ">
             <label
               for="name"
               className="block mb-2 font-medium text-gray-900 text-lg ml-5"

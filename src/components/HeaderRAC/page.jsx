@@ -22,8 +22,8 @@ export default function HeaderRAC() {
           </h1>
 
           <a
-            href="#"
-            className="text-white py-2 3xl:py-3 px-9 3xl:px-12 rounded-md bg-purplebm w-fit font-bold text-xl 3xl:text-3xl tracking-wider my-5"
+            href="#conocenos"
+            className="text-white py-2 3xl:py-3 px-9 3xl:px-12 rounded-md bg-purplebm w-fit font-bold text-xl 3xl:text-3xl tracking-wider my-5 hover:shadow-2xl hover:bg-opacity-80 transition-all duration-300"
           >
             Conoce cómo
           </a>

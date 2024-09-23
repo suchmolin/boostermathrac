@@ -15,3 +15,7 @@
     font-family: 'InterBlack';
     src: url('/font/InterBlack.ttf');
 }
+
+*{
+    scroll-behavior: smooth;
+}

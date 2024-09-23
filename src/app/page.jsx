@@ -15,13 +15,13 @@ export default function Home() {
       <HeaderRAC />
       <ComoFuncionaRAC />
       <TrofeoRAC />
-      {/*
       <ProgramasyEdades />
       <PasoAdelante />
       <Contactanos />
       <TambienOfrecemos />
       <FooterRAC />
-      */}
+      {/*
+       */}
     </main>
   )
 }

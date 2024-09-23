@@ -61,7 +61,10 @@ export default function ProgramasyEdades() {
     },
   ]
   return (
-    <div className="relative w-full flex flex-col justify-center items-center pb-20 ">
+    <div
+      id="programas"
+      className="relative w-full flex flex-col justify-center items-center sm:pb-10 "
+    >
       <Image
         className="absolute right-0 top-[13%]"
         src="/img/fondotarjetas2.png"
@@ -76,7 +79,10 @@ export default function ProgramasyEdades() {
         height={300}
         alt="linea"
       />
-      <div className="w-10/12 flex flex-col justify-center items-center z-10">
+      <div
+        id="horarios"
+        className="w-11/12 sm:w-8/12 md:w-11/12 xl:w-10/12 flex flex-col justify-center items-center z-10"
+      >
         <h2 className="font-[InterBlack] text-4xl 3xl:text-6xl text-bluebm mb-10">
           Programas y edades
         </h2>

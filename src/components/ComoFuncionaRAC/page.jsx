@@ -2,7 +2,10 @@ import Image from "next/image"
 
 export default function ComoFuncionaRAC() {
   return (
-    <section className="w-full bg-[url('/img/fondoComoFuncionaRAC.png')] bg-contain bg-top bg-no-repeat flex flex-col items-center bg-LightBlueSecondarybm pt-10">
+    <section
+      id="conocenos"
+      className="w-full bg-[url('/img/fondoComoFuncionaRAC.png')] bg-contain bg-top bg-no-repeat flex flex-col items-center bg-LightBlueSecondarybm pt-10"
+    >
       <div className="w-10/12 flex justify-center items-end gap-20 lg:gap-7 xl:gap-0">
         <div className="w-[100px] xl:w-[130px] 3xl:w-[230px] aspect-square relative  hidden sm:block">
           <Image
@@ -13,7 +16,7 @@ export default function ComoFuncionaRAC() {
           />
         </div>
         <div className="w-11/12 sm:w-6/12 md:w-5/12 flex flex-col items-center justify-end">
-          <div className="relative w-[350px] sm:w-[500px] 3xl:w-[700px] aspect-video">
+          <div className="relative w-[300px] xs:w-[350px] sm:w-[500px] 3xl:w-[700px] aspect-video">
             <Image
               src="/img/imgComoFuncionaRAC.png"
               layout="fill"
@@ -31,7 +34,7 @@ export default function ComoFuncionaRAC() {
               <p className="text-bluebm font-bold text-sm 3xl:text-xl text-center mb-2">
                 Iniciación
               </p>
-              <div className="w-[50px] h-[50px] rounded-full p-4 bg-purplebm flex justify-center items-center z-0">
+              <div className="w-[50px] h-[50px] rounded-full p-4 bg-purplebm flex justify-center items-center z-0 hover:scale-105 transition-all duration-300">
                 <Image
                   src="/img/iconMini1.png"
                   width={20}
@@ -44,7 +47,7 @@ export default function ComoFuncionaRAC() {
               <p className="text-bluebm font-bold text-sm 3xl:text-xl text-center mb-2">
                 Nivelación
               </p>
-              <div className="w-[50px] h-[50px] rounded-full p-4 bg-purplebm flex justify-center items-center z-0">
+              <div className="w-[50px] h-[50px] rounded-full p-4 bg-purplebm flex justify-center items-center z-0 hover:scale-105 transition-all duration-300">
                 <Image
                   src="/img/iconMini2.png"
                   width={20}
@@ -57,7 +60,7 @@ export default function ComoFuncionaRAC() {
               <p className="text-bluebm font-bold text-sm 3xl:text-xl text-center mb-2">
                 Aceleración
               </p>
-              <div className="w-[50px] h-[50px] rounded-full p-4 bg-purplebm flex justify-center items-center z-0">
+              <div className="w-[50px] h-[50px] rounded-full p-4 bg-purplebm flex justify-center items-center z-0 hover:scale-105 transition-all duration-300">
                 <Image
                   src="/img/iconMini3.png"
                   width={25}
@@ -70,7 +73,7 @@ export default function ComoFuncionaRAC() {
               <p className="text-bluebm font-bold text-sm 3xl:text-xl text-center mb-2">
                 Aplicación
               </p>
-              <div className="w-[50px] h-[50px] rounded-full p-4 bg-purplebm flex justify-center items-center z-0">
+              <div className="w-[50px] h-[50px] rounded-full p-4 bg-purplebm flex justify-center items-center z-0 hover:scale-105 transition-all duration-300">
                 <Image
                   src="/img/iconMini4.png"
                   width={25}
@@ -98,8 +101,8 @@ export default function ComoFuncionaRAC() {
           aplicarlos.
         </p>
         <a
-          href="#"
-          className="text-white py-2 3xl:py-3 px-9 3xl:px-12 rounded-md bg-purplebm w-fit font-bold text-xl 3xl:text-3xl tracking-wider my-5"
+          href="#contactanos"
+          className="text-white py-2 3xl:py-3 px-9 3xl:px-12 rounded-md bg-purplebm w-fit font-bold text-xl 3xl:text-3xl tracking-wider my-5 hover:shadow-2xl hover:bg-opacity-80 transition-all duration-300"
         >
           Obtener cupo
         </a>
