@@ -83,6 +83,7 @@ export default function ProgramasyEdades() {
         {data.map((item, index) => {
           return (
             <TarjetaPYE
+              key={index}
               img={item.img}
               iconTitle={item.iconTitle}
               title={item.title}
