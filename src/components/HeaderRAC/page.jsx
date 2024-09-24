@@ -32,7 +32,7 @@ export default function HeaderRAC() {
 
           <a
             href="#conocenos"
-            className="text-white py-2 3xl:py-3 px-9 3xl:px-12 rounded-md bg-purplebm w-fit font-bold text-xl 3xl:text-3xl tracking-wider my-5 hover:shadow-2xl hover:bg-opacity-80 transition-all duration-300"
+            className="text-white py-2 3xl:py-3 px-9 3xl:px-12 rounded-md bg-purplebm w-fit font-bold text-xl 3xl:text-3xl tracking-wider sm:my-5 hover:shadow-2xl hover:bg-opacity-80 transition-all duration-300 -mt-1 mb-7"
           >
             Conoce cómo
           </a>
