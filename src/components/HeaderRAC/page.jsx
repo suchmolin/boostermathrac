@@ -6,13 +6,23 @@ export default function HeaderRAC() {
     <section className="w-full h-[1000px] sm:h-[1400px] 3xl:min-h-[1800px] bg-[url('/img/fondoHeaderRAC.png')] bg-center bg-no-repeat bg-cover flex flex-col">
       <div className="w-full flex flex-col md:flex-row h-[700px] 3xl:h-[1000px]">
         <div className="w-full md:w-5/12 lg:w-4/12 2xl:w-3/12 3xl:w-4/12 flex flex-col justify-center items-center md:items-start mt-2 sm:mt-10 3xl:mt-20 md:ml-5 lg:ml-[5%] xl:ml-[10%] 2xl:ml-52 3xl:ml-60 text-center md:text-start sm:pt-20 md:pt-0">
-          <div className="block sm:hidden relative w-[200px] sm:w-[150px] aspect-video">
-            <Image
-              src="/img/logo.png"
-              layout="fill"
-              objectFit="contain"
-              alt="logo"
-            />
+          <div className="w-full flex sm:hidden justify-between p-2 xs:px-4 mb-5">
+            <div className="relative w-[120px] xs:w-[150px]  aspect-video">
+              <Image
+                src="/img/anoescolar.png"
+                layout="fill"
+                objectFit="contain"
+                alt="logo"
+              />
+            </div>
+            <div className="relative w-[120px] xs:w-[150px] aspect-video">
+              <Image
+                src="/img/sdvsdv_2.png"
+                layout="fill"
+                objectFit="contain"
+                alt="logo"
+              />
+            </div>
           </div>
           <h1 className="text-3xl lg:text-5xl 3xl:text-7xl text-bluebm font-[InterBold]">
             Olvídate del <br /> miedo a las <br />
