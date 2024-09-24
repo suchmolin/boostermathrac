@@ -44,6 +44,7 @@ export default function HeaderRAC() {
               layout="fill"
               objectFit="contain"
               alt="niño feliz"
+              priority
             />
           </div>
         </div>
