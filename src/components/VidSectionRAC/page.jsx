@@ -13,13 +13,13 @@ export default function VidSectionRAC() {
           className="w-full h-full cursor-pointer"
         ></video>
       </div>
-      <h3 className="text-xl xs:text-2xl 3xl:text-4xl text-lightBluebm leading-[25px] pt-3 text-center px-4 xs:px-0">
+      <h2 className="text-xl xs:text-2xl 3xl:text-4xl text-lightBluebm leading-[25px] pt-3 text-center px-4 xs:px-0">
         Este Año Escolar, las matemáticas dejarán <br /> de ser un problema con
         nuestro
-      </h3>
-      <h2 className="text-3xl 3xl:text-5xl text-purplebm font-bold text-center">
-        Acelerador Matemático
       </h2>
+      <h3 className="text-3xl 3xl:text-5xl text-purplebm font-bold text-center">
+        Acelerador Matemático
+      </h3>
     </div>
   )
 }
