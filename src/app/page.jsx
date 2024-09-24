@@ -18,9 +18,9 @@ export default function Home() {
       <ProgramasyEdades />
       <PasoAdelante />
       <Contactanos />
-      <TambienOfrecemos />
       <FooterRAC />
       {/*
+      <TambienOfrecemos />
        */}
     </main>
   )

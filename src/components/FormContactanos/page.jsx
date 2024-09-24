@@ -1,8 +1,39 @@
-import { Label, TextInput } from "flowbite-react"
+"use client"
+
+import { useState } from "react"
+import SendedMsg from "../SendedMsg/page"
 
 export default function FormContactanos() {
+  const [sended, setSended] = useState(false)
+
+  const sendGS = async (e) => {
+    e.preventDefault()
+    const formData = new FormData(e.target)
+    const data = Object.fromEntries(formData)
+    data.modality = data.sede !== "online" ? "presencial" : "online"
+
+    const resp = await fetch("/api/fetchOdoo", {
+      method: "POST",
+      body: JSON.stringify(data),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    })
+
+    document.getElementById("myForm").reset()
+    setSended(true)
+
+    setTimeout(() => {
+      setSended(false)
+    }, 5000)
+  }
+
   return (
-    <form id="contactanos" className="w-full flex flex-col gap-4">
+    <form
+      id="myForm"
+      onSubmit={(e) => sendGS(e)}
+      className="w-full flex flex-col gap-4"
+    >
       <div className="w-full">
         <div className="flex flex-col sm:flex-row items-center gap-4 mb-4">
           <div className="w-full sm:w-6/12 flex flex-col">
@@ -83,7 +114,10 @@ export default function FormContactanos() {
             required
           />
         </div>
+        <input type="hidden" value="landing Año Escolar" name="social_media" />
+        <input type="hidden" value="Fyr Lois English Institute" name="from" />
       </div>
+
       <div className="w-full flex justify-center py-4">
         <button
           type="submit"
@@ -92,6 +126,7 @@ export default function FormContactanos() {
           Enviar
         </button>
       </div>
+      {sended && <SendedMsg />}
     </form>
   )
 }
