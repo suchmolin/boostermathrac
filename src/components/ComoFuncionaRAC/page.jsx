@@ -94,7 +94,7 @@ export default function ComoFuncionaRAC() {
         </div>
       </div>
       <div className="w-full flex flex-col items-center justify-center bg-LightBlueSecondarybm bg-[url('/img/fondoComoFuncionaRAC2.png')] bg-cover bg-bottom bg-no-repeat pb-20">
-        <p className="w-11/12 sm:w-7/12 lg:w-5/12 font-bold py-10 text-sm lg:text-base 3xl:text-2xl text-center sm:text-start">
+        <p className="w-11/12 sm:w-7/12 lg:w-5/12 font-bold py-10 text-sm lg:text-base 3xl:text-2xl text-justify sm:text-start px-7">
           Ponemos a tu hijo un paso adelante de su nivel académico, a través de
           una forma de enseñanza novedosa, pensada para que entienda los
           procesos con facilidad y desarrolle su pensamiento lógico, para saber

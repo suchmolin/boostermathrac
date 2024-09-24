@@ -12,7 +12,7 @@ export default function TarjetaPYE({
 }) {
   return (
     <div
-      className={`w-full xl:min-h-[400px] flex flex-col md:flex-row justify-center items-center pb-4 xs:py-4 lg:py-14 px-2 xs:px-10 xl:px-20 bg-${fondo} rounded-[40px] mb-20`}
+      className={`w-full xl:min-h-[400px] flex flex-col md:flex-row justify-center items-center pb-4 xs:py-4 lg:py-14 px-2 xs:px-5 xl:px-20 bg-${fondo} rounded-[40px] mb-20`}
     >
       <div className="relative w-[270px] md:w-[600px] aspect-square overflow-hidden rounded-[40px]">
         <Image src={img} layout="fill" objectFit="cover" alt="imgAlpha" />
@@ -34,10 +34,10 @@ export default function TarjetaPYE({
             </span>
           </p>
         </div>
-        <p className="text-bluebm text-base sm:text-lg lg:text-xl 3xl:text-3xl mb-2 lg:mb-7 font-bold text-center md:text-start">
+        <p className="text-bluebm text-base sm:text-lg lg:text-xl 3xl:text-3xl mb-2 lg:mb-7 font-bold text-justify md:text-start">
           {p1}
         </p>
-        <p className="text-bluebm text-base sm:text-lg lg:text-xl 3xl:text-3xl mb-2 lg:mb-7 font-bold text-center md:text-start">
+        <p className="text-bluebm text-base sm:text-lg lg:text-xl 3xl:text-3xl mb-2 lg:mb-7 font-bold text-justify md:text-start">
           {p2}
         </p>
         <div className="flex items-center gap-2">
