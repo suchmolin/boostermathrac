@@ -13,6 +13,7 @@ export default function HeaderRAC() {
                 layout="fill"
                 objectFit="contain"
                 alt="logo"
+                priority
               />
             </div>
             <div className="relative w-[120px] xs:w-[150px]  aspect-video">
@@ -21,6 +22,7 @@ export default function HeaderRAC() {
                 layout="fill"
                 objectFit="contain"
                 alt="logo"
+                priority
               />
             </div>
           </div>
