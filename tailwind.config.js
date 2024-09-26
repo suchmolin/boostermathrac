@@ -14,8 +14,8 @@ module.exports = {
       md: "768px",
       lg: "1050px",
       xl: "1280px",
-      "2xl": "1536px",
-      "3xl": "2000px",
+      xxl: "1536px",
+      xxxl: "2000px",
     },
     fontFamily: {
       customFont: ["Inter", "InterBold", "InterBlack"],

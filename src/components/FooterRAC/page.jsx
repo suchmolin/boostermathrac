@@ -27,7 +27,7 @@ export default function FooterRAC() {
       <div className="w-full sm:w-9/12 xl:w-6/12 flex justify-between">
         <div className="sm:w-9/12 xl:w-9/12 flex flex-col">
           <p className="text-2xl font-bold mb-7">Contactos</p>
-          <ul className="flex flex-col gap-6 text-sm  3xl:text-xl">
+          <ul className="flex flex-col gap-6 text-sm  xxxl:text-xl">
             <li className="flex items-center gap-4">
               <FaPhoneAlt className="text-xl" /> +584123408754
             </li>
@@ -56,7 +56,7 @@ export default function FooterRAC() {
 
         <div className="w-3/12 hidden sm:block">
           <p className="text-2xl font-bold mb-7">Navegación</p>
-          <ul className="flex flex-col gap-6 text-sm  3xl:text-xl">
+          <ul className="flex flex-col gap-6 text-sm  xxxl:text-xl">
             <li className="flex items-center gap-4 hover:text-lightBluebm transition-all duration-300 hover:drop-shadow-md">
               <a href="#conocenos">Acelerador Matemático</a>
             </li>
