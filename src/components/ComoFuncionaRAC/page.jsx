@@ -21,7 +21,7 @@ export default function ComoFuncionaRAC() {
               src="/img/imgComoFuncionaRAC.png"
               layout="fill"
               objectFit="contain"
-              alt="ComoFuncionaRAC"
+              alt="3 chicos de edad joven, una niña que esta en tercer grado y dos jovenes en bachillerato"
             />
           </div>
           <h2 className="font-[InterBold] md:text-lg lg:text-2xl xl:text-3xl xxxl:text-5xl text-bluebm text-center pb-5">
