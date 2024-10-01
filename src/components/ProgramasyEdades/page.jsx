@@ -98,6 +98,7 @@ export default function ProgramasyEdades() {
               p2={item.p2}
               horarios={item.horarios}
               fondo={item.fondo}
+              alt={item.alt}
             />
           )
         })}
