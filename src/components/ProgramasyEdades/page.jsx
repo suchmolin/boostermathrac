@@ -12,6 +12,7 @@ export default function ProgramasyEdades() {
       p2: "Exploramos conceptos matemáticos de manera natural, a travez del juego",
       horarios: ["-Martes y Jueves 2:00 a 3:20 pm"],
       fondo: "LightBlueSecondarybm",
+      alt:"niña de 5 años y de primaria básica sonriendo por mejorar en clases de matemáticas"
     },
     {
       img: "/img/imgBeta.png",
@@ -25,6 +26,7 @@ export default function ProgramasyEdades() {
         "-Viernes: 2:00 a 5:00 pm",
       ],
       fondo: "LightBlueSecondarybm",
+      alt:"niña de 7 años, rubia, en primaria básica feliz por sus avances en matemáticas"
     },
     {
       img: "/img/imgDelta.png",
@@ -38,6 +40,7 @@ export default function ProgramasyEdades() {
         "-Sabados: 2:00 a 5:00 pm",
       ],
       fondo: "LightBlueSecondarybm",
+      alt:"niño de 10 años sonriendo, porque logró superar sus problemas de matemáticas"
     },
     {
       img: "/img/imgKappa.png",
@@ -48,6 +51,7 @@ export default function ProgramasyEdades() {
       p2: "Abordamos objetivos matemáticos más avanzados con un proceso de aprendizaje empírico y agredable.",
       horarios: ["-Viernes: 2:00 a 5:00 pm"],
       fondo: "purpleSecondarybm",
+      alt:"joven de 13 años en secundaria de bachillerato, feliz por su mejora en matemáticas"
     },
     {
       img: "/img/imgSigma.jpg",
@@ -58,6 +62,7 @@ export default function ProgramasyEdades() {
       p2: "Convertimos la matemática en una herramienta funcional y aplicable, como preparación para el futuro universitario",
       horarios: ["-Lunes y Miercoles: 3:30 a 4:50 pm"],
       fondo: "purpleSecondarybm",
+      alt:"joven de 16 años en bachillerato, feliz por su mejora en operaciones matemáticas"
     },
   ]
   return (
@@ -98,6 +103,7 @@ export default function ProgramasyEdades() {
               p2={item.p2}
               horarios={item.horarios}
               fondo={item.fondo}
+              alt={alt}
             />
           )
         })}

@@ -10,7 +10,7 @@ export default function PasoAdelante() {
             src="/img/qkck.png"
             objectFit="contain"
             layout="fill"
-            alt="qkck"
+            alt="joven de 16 años en bachillerato alegre de su avance en física, química y matemáticas"
           />
         </div>
       </div>
@@ -20,7 +20,8 @@ export default function PasoAdelante() {
             src="/img/qkck-2.png"
             objectFit="contain"
             layout="fill"
-            alt="qkck"
+            alt="niño de 9 años en primaria básica sonriendo
+"
           />
         </div>
       </div>

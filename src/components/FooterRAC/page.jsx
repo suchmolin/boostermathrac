@@ -13,7 +13,7 @@ export default function FooterRAC() {
             src="/img/logo2.png"
             layout="fill"
             objectFit="contain"
-            alt="logo booster"
+            alt="Boostermath instituto de matemáticas"
           />
         </div>
         <h3 className="font-bold lg:text-2xl hidden sm:block">
