@@ -21,7 +21,7 @@ export default function HeaderRAC() {
                 src="/img/anoescolar.png"
                 layout="fill"
                 objectFit="contain"
-                alt="logo"
+                alt="Boostermath instituto matemático"
                 priority
               />
             </div>
@@ -37,7 +37,8 @@ export default function HeaderRAC() {
               src="/img/imgHeaderRAC.png"
               layout="fill"
               objectFit="contain"
-              alt="niño feliz"
+              alt="adolescente en 4to año de bachillerato feliz por resolver problemas matemáticos
+"
               priority
             />
           </div>
@@ -64,7 +65,7 @@ export default function HeaderRAC() {
               src="/img/imgHeaderRAC.png"
               layout="fill"
               objectFit="contain"
-              alt="niño feliz"
+              alt="adolescente en 4to año de bachillerato feliz por resolver problemas matemáticos"
               priority
             />
           </div>

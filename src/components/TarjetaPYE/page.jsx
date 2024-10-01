@@ -9,13 +9,14 @@ export default function TarjetaPYE({
   p2,
   horarios,
   fondo,
+  alt
 }) {
   return (
     <div
       className={`w-full xl:min-h-[400px] flex flex-col md:flex-row justify-center items-center pb-4 xs:py-4 lg:py-14 px-2 xs:px-5 xl:px-20 bg-${fondo} rounded-[40px] mb-20`}
     >
       <div className="relative w-[270px] md:w-[600px] aspect-square overflow-hidden rounded-[40px]">
-        <Image src={img} layout="fill" objectFit="cover" alt="imgAlpha" />
+        <Image src={img} layout="fill" objectFit="cover" alt={alt} />
       </div>
       <div className="flex flex-col justify-center items-center md:items-start md:pl-10 xl:pr-32">
         <div className="flex gap-2 xxxl:gap-4 items-center mb-2 lg:mb-7">

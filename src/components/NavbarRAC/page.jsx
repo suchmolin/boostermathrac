@@ -14,7 +14,7 @@ export default function NavbarRAC() {
               src="/img/logo.png"
               layout="fill"
               objectFit="contain"
-              alt="logo"
+              alt="Boostermath instituto de matemáticas"
             />
           </div>
         </div>
