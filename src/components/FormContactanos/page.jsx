@@ -5,20 +5,26 @@ import SendedMsg from "../SendedMsg/page"
 
 export default function FormContactanos() {
   const [sended, setSended] = useState(false)
-  const scriptURL =
-    "https://script.google.com/macros/s/AKfycbw1R9SWvCCEz3guhBEzyoobbWq-z4AvEYRST3J1uiJWtwYBy3t-kbuUJfBg4z9H8uE/exec"
+  //const scriptURL ="https://script.google.com/macros/s/AKfycbw1R9SWvCCEz3guhBEzyoobbWq-z4AvEYRST3J1uiJWtwYBy3t-kbuUJfBg4z9H8uE/exec"
 
   const sendGS = async (e) => {
     e.preventDefault()
     const formData = new FormData(e.target)
-    //const data = Object.fromEntries(formData)
+    const data = Object.fromEntries(formData)
+    data.social_media = "Landing Regreso a Clases Boostermath"
+    data.from = "Boostermath"
+    data.sede = "Boostermath"
+    data.camp = "page"
+    data.name = `${data.Nombre} ${data.Apellido}`
 
-    const resp = fetch(scriptURL, {
+
+
+   /*const resp = fetch(scriptURL, {
       method: "POST",
       body: formData,
-    })
+    })*/
 
-    /*
+    
     const resp = await fetch("/api/fetchOdoo", {
       method: "POST",
       body: JSON.stringify(data),
@@ -26,7 +32,7 @@ export default function FormContactanos() {
         "Content-Type": "application/json",
       },
     })
-    */
+    
 
     document.getElementById("myForm").reset()
     setSended(true)
@@ -87,7 +93,7 @@ export default function FormContactanos() {
             <input
               type="number"
               id="telf"
-              name="Telf"
+              name="phone"
               className="bg-gray-200 border-none text-gray-900 text-sm rounded-xl block w-full p-2.5 focus:ring-purplebm focus:bg-gray-100"
               required
             />
@@ -102,7 +108,7 @@ export default function FormContactanos() {
             <input
               type="text"
               id="ciudad"
-              name="Ciudad"
+              name="description"
               className="bg-gray-200 border-none text-gray-900 text-sm rounded-xl block w-full p-2.5 focus:ring-purplebm focus:bg-gray-100"
               required
             />
@@ -118,7 +124,7 @@ export default function FormContactanos() {
           <input
             type="email"
             id="correo"
-            name="Correo"
+            name="email"
             className="bg-gray-200 border-none text-gray-900 text-sm rounded-xl block w-full p-2.5 focus:ring-purplebm focus:bg-gray-100"
             required
           />
