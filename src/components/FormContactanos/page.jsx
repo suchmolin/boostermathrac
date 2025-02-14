@@ -5,7 +5,7 @@ import SendedMsg from "../SendedMsg/page"
 
 export default function FormContactanos() {
   const [sended, setSended] = useState(false)
-  //const scriptURL ="https://script.google.com/macros/s/AKfycbw1R9SWvCCEz3guhBEzyoobbWq-z4AvEYRST3J1uiJWtwYBy3t-kbuUJfBg4z9H8uE/exec"
+  const scriptURL ="https://script.google.com/macros/s/AKfycbw1R9SWvCCEz3guhBEzyoobbWq-z4AvEYRST3J1uiJWtwYBy3t-kbuUJfBg4z9H8uE/exec"
 
   const sendGS = async (e) => {
     e.preventDefault()
