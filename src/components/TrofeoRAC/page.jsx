@@ -34,7 +34,7 @@ export default function TrofeoRAC() {
               />
             </div>
             <p className="text-sm sm:text-base lg:text-2xl xxxl:text-5xl font-[InterBlack] text-bluebm font-extrabold px-2 text-center">
-              25 años de <br /> experiencia
+              26 años de <br /> experiencia
             </p>
             <div className="relative w-[15px] sm:w-[20px] lg:w-[25px] h-[70px]">
               <Image
